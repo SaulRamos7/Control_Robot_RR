@@ -14,7 +14,7 @@ El objetivo de esta práctica es garantizar que el efector final del robot siga 
 ## Estructura del Repositorio
 
 * `/Simulacion`: Contiene los archivos de MATLAB y Simulink.
-* `/Documentacion`: Contiene el reporte técnico final en formato PDF, el código fuente en LaTeX y las gráficas de validación.
+* `/Documentacion`: Contiene el reporte técnico final en formato PDF.
 
 ## Requisitos de Software
 
@@ -29,4 +29,4 @@ Para replicar la simulación en tu equipo local, sigue estos pasos:
 2. Abre MATLAB y navega hasta el directorio de la simulación.
 3. Ejecuta primero el script de inicialización para cargar los parámetros físicos y las ganancias del controlador en el Workspace:
    ```matlab
-   run('init.m')
+   run('parametros.m')
